@@ -8,7 +8,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -20,15 +19,29 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png";
+import aws from "./tech/Aws.jpg";
+import boot from "./tech/spring.png";
+import python from "./tech/python.jpeg";
+import mysql from "./tech/mysql.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import hooy from "./company/hooy.jpg";
+import thisdev from "./company/thisdev.jpg";
+import freelancer from "./company/freelancer.png";
+import campuslands from "./company/campuslands.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cmr from "./cmr.png";
+import recognition from "./recognition.png"
+
+import crmgif from "./company/crm.gif";
+import facialrecoggif from "./company/facialrecog.gif";
 
 export {
   logo,
@@ -40,7 +53,6 @@ export {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -59,4 +71,18 @@ export {
   carrent,
   jobit,
   tripguide,
+  crmgif,
+  facialrecoggif,
+  campuslands,
+  freelancer,
+  hooy,
+  thisdev, 
+  java,
+  aws,
+  boot,
+  python,
+  mysql,
+  cmr,
+  recognition,
+
 };

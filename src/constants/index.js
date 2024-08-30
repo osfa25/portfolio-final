@@ -8,21 +8,26 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    crmgif,
+    facialrecoggif,
+    hooy,
+    freelancer, 
+    campuslands,
+    thisdev,
+    java,
+    aws,
+    boot,
+    python,
+    mysql,
+    cmr,
+    recognition,
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +51,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React & React Native Developer",
       icon: mobile,
     },
     {
@@ -54,7 +59,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Cloud Manager",
       icon: creator,
     },
   ];
@@ -69,6 +74,14 @@ import {
       icon: css,
     },
     {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "mysql",
+      icon: mysql,
+    },
+    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -81,21 +94,10 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    
     {
       name: "Three JS",
       icon: threejs,
@@ -108,56 +110,63 @@ import {
       name: "figma",
       icon: figma,
     },
+
     {
-      name: "docker",
-      icon: docker,
+      name: "java",
+      icon: java,
+    },
+    {
+      name: "Aws",
+      icon: aws,
+    },
+    {
+      name: "Spring",
+      icon: boot,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Content and user experience management",
+      company_name: "HOOY APP",
+      icon: hooy,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "may 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Image management and integration.",
+        "User management, product creation.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Back-end developer",
+      company_name: "This.Dev",
+      icon: thisdev,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Dec 2023 -sep 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "I was part of a collaborative initiative with four programmers, where the main objective was to develop projects with a significant business impact.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "As a backend developer, I focused on the maintenance and creation of databases, connection with microservices, deploying the projects effectively and efficiently.",
+        "Teamwork was key to the success of these projects, allowing for constant progress and ensuring that each member contributed their strengths.",
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "Campuslands",
+      icon: campuslands,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Dec 2023 - Sep 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Create and manage complete web applications with Frontend technologies such as HTML, CSS and JavaScript.",
+        "Develop projects using Git for version control and agile methodologies such as SCRUM for teamwork.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I developed strong soft skills and proficiency in English, which enabled me to successfully accomplish my tasks.",
       ],
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "",
+      icon: freelancer,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
@@ -170,37 +179,15 @@ import {
   ];
   
   const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    
+
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Hooy CMR",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Development of CRM platform with mass message sending functionality with Javascript, Java Spring Boot, MySQL and AWS",
       tags: [
         {
           name: "react",
@@ -215,51 +202,33 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: cmr ,
+      gifUrl: crmgif,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Facial recognition",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Facial recognition web platform through images powered by AI, Python, AWS and Javascript",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
-        {
-          name: "restapi",
+        {  
+          name: "AWS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "JS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: recognition,
+      gifUrl: facialrecoggif,
       source_code_link: "https://github.com/",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+   
   ];
   
   export { services, technologies, experiences, testimonials, projects };

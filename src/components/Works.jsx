@@ -14,6 +14,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  gifUrl,
   source_code_link,
 }) => {
   return (
@@ -33,6 +34,8 @@ const ProjectCard = ({
             className='w-full h-full object-cover rounded-2xl'
           />
 
+          
+
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -51,6 +54,16 @@ const ProjectCard = ({
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
+
+        {gifUrl && (
+            <div className="mt-5 flex justify-center">
+              <img
+                src={gifUrl} 
+                alt="Project GIF"
+                className="w-full h-auto object-contain"
+              />
+            </div>
+        )}
 
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
